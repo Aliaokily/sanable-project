@@ -1,0 +1,139 @@
+:root {
+  --mainColor: #8f0a0f;
+  --hoverColor: #a0262a;
+  --secondColor: rgb(94, 93, 93);
+  --mainPadding: 100px 0 10px;
+  --secondFontFamily: "Playfair Display";
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+a {
+  text-decoration: none;
+  color: var(--mainColor);
+}
+a:hover {
+  color: var(--hoverColor);
+}
+
+.col-3 {
+  width: calc(100% / 4);
+}
+.col-9 {
+  width: calc(100% / (12 / 9));
+}
+.col-4 {
+  width: calc(100% / 3);
+}
+.col-8 {
+  width: calc(100% / 1.5);
+}
+.col-5 {
+  width: calc(100% / 2.4);
+}
+.col-7 {
+  width: calc(100% / (12 / 7));
+}
+.col-6 {
+  width: calc(100% / 2);
+}
+/*start aside*/
+aside {
+  width: 25%;
+  float: left;
+  position: fixed;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  padding: 90px 30px 0;
+  box-sizing: border-box;
+}
+aside .logo img {
+  width: 70%;
+}
+
+/*end aside*/
+/*start main */
+main {
+  width: 75%;
+  float: right;
+  padding-top: 61px;
+  box-sizing: border-box;
+}
+/*start home */
+#Home {
+  background-image: url("../images/slide-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 92vh;
+}
+
+/*end home */
+/*start quotes */
+
+/*end quotes */
+/*start New Products */
+#NewProducts .col-5 {
+  background-image: url("../images/products/1.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+/*end New Products */
+/*start ads */
+#adds {
+  margin: var(--mainPadding);
+  background-image: url("../images/banner-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55vh;
+  color: #fff;
+}
+
+/*end ads */
+/*start Offers */
+
+/*end Offers */
+/*end New Products */
+/*start contact*/
+
+/*end contact*/
+/*end Brands*/
+
+/*end Brands*/
+/*start footer*/
+
+/*end Brands*/
+/*end main */
+/*start header */
+header {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 3px 6px rgb(51 51 51 / 10%);
+}
+header #mainUl {
+  display: flex;
+  list-style: none;
+}
+
+/*end header */
+#BackToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
